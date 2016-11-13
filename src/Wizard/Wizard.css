@@ -1,0 +1,79 @@
+/*** Wizard ***/
+
+.wizard {
+  width: 100%;
+  max-width: 20rem;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/*** WizardPage ***/
+
+.wizard__page--hidden {
+  display: none;
+}
+
+/*** WizardFieldGroup ***/
+
+.wizard__field-group {
+  padding-bottom: .5rem;
+}
+
+.wizard__field-group label {
+  display: block;
+}
+
+.wizard__field-group input {
+  width: 100%;
+  padding: .5rem;
+  font-size: 1rem;
+  color: #666;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.wizard__error-message {
+  font-size: .875rem;
+  color: #E53935;
+}
+
+/*** WizardPageButton ***/
+
+.wizard__button-group {
+  display: flex;
+  flex-direction: column;
+  margin-top: .5rem;
+}
+
+.wizard__button {
+  display: block;
+  height: 3rem;
+  border: 0;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.wizard__button--submit {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.wizard__button--next {
+  background-color: #0064ad;
+  color: white;
+}
+
+.wizard__button--previous {
+  height: auto;
+  margin-top: 1rem;
+  display: block;
+  text-align: center;
+  background-color: white;
+  color: #03A9F4;
+}
+
+
+
